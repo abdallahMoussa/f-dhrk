@@ -1,23 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import About from "./components/About";
+import Footer from "./components/Footer";
+import HeroSection from "./components/HeroSection";
+import Navbar from "./components/Navbar";
+import ThemeContext from "./context/ThemeContext";
+import bgDark from "./assets/images/texture_dark.png";
+import { useContext } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Login from "./components/Login";
+import Signup from "./components/Signup";
 
 function App() {
+  const { darkmode } = useContext(ThemeContext);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div className="App dark:bg-slate-800 bg-white">
+      <Router>
+        <div
+          style={{
+            backgroundImage: "url(" + bgDark + ")",
+          }}
         >
-          Learn React
-        </a>
-      </header>
+          <Navbar />
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <HeroSection />
+                  <About />
+                </>
+              }
+            />
+            <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<Signup />} />
+          </Routes>
+          <Footer />
+        </div>
+      </Router>
     </div>
   );
 }

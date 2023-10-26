@@ -1,0 +1,72 @@
+.svg {
+    position: absolute;
+    width: 0;
+    height: 0;
+  }
+  .clipped {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    -webkit-clip-path: url(#my-clip-path);
+    clip-path: url(#my-clip-path);
+  }
+  .clipped
+  .overlay{
+    background-color: rgba(0, 0, 0, .5);
+  }
+  .active{
+    width :400px !important;
+    height : 400px !important;
+    top :11.5% !important;
+    left : 23% !important;
+    z-index:10 ;
+    transition: .5s;
+    filter: saturate(1.5);
+    cursor: auto;
+  }
+  
+  .slide{
+    width: 100px;
+    height: 100px;
+    transition: .5s;
+
+  }
+  .slide-1 {
+    top: 9%;
+    left: 29%;
+  }
+  .slide-2 {
+    top: 19.5%;
+    left: 21.2%;
+  }
+  .slide-3 {
+    top: 30%;
+    left: 13.5%;
+  }
+  .slide-4 {
+    top: 40.8%;
+    left: 5.8%;
+  }
+  .slide-5 {
+    top: 51.5%;
+    left: 13.5%;
+  }
+  .slide-6 {
+    top: 62%;
+    left: 21.2%;
+  }
+  .slide-7 {
+    top: 72.7%;
+    left: 29%;
+  }
+  .slide:not(.active){
+    filter: grayscale(.8) blur(.4px);
+    z-index: 40;
+  }
+
+.slide-video{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 200;
+}
