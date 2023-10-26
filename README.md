@@ -1,7 +1,7 @@
 # F-Dhrk
 ![about](https://github.com/abdallahMoussa/f-dhrk/assets/55410420/b88cc6cd-406e-41ad-96b0-dc7e70d1371d)
 
-F-Dhrk is a web application built using React and React Router, with styles powered by Tailwind CSS.
+F-Dhrk is a web application built using React, with styles powered by Tailwind CSS.
 
 ## Description
 
