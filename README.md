@@ -13,4 +13,4 @@ Many individuals often desire to play, visit coffee shops, or attend weddings, b
 - React: [Link to React](https://reactjs.org/)
 - React Router: [Link to React Router](https://reactrouter.com/)
 - Tailwind CSS: [Link to Tailwind CSS](https://tailwindcss.com/)
-- PhotoShop: https://www.adobe.com/products/photoshop.html
+- PhotoShop: [Link to PhotoShop ](https://www.adobe.com/products/photoshop.html)
