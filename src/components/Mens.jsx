@@ -8,7 +8,7 @@ const Mens = () => {
   const { darkmode } = useContext(ThemeContext);
   return (
     <>
-      <section className="pt-16">
+      <section className="md:pt-16 pt-24">
         <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
           <h2 className="text-center flex justify-center text-4xl text-shadow-sm font-bold tracking-tight text-red-600 mb-32 sm:text-5xl">
             <img src={darkmode ? wing : wingLight} className="w-14" />

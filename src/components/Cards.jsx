@@ -8,7 +8,7 @@ const Cards = () => {
   const { darkmode } = useContext(ThemeContext);
 
   return (
-    <div className="pt-24 mb-20 cont">
+    <div className=" pt-44 md:pt-24 mb-20 cont">
       <h2 className="text-center flex justify-center text-4xl font-bold tracking-tight text-red-600  sm:text-5xl">
         <img src={darkmode ? wing : wingLight} className="w-14 mr-2" />
         <span className="block mt-2">إنجازاتنا</span>
