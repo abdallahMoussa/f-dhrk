@@ -13,8 +13,8 @@ const Login = () => {
     );
   };
   return (
-    <div>
-      <div className="min-h-[60vh]  py-6 flex flex-col justify-center sm:py-12">
+    <div className="md:scale-90">
+      <div className="min-h-[60vh]  py-10 flex flex-col justify-center ">
         <div className="relative py-3 sm:max-w-xl sm:mx-auto">
           <div className="absolute inset-0 drop-shadow-md  bg-gradient-to-r from-slate-400 to-slate-300 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
           <div
