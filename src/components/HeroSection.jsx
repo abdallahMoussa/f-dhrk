@@ -93,13 +93,13 @@ const HeroSection = () => {
     forward(ind);
     let timeOut = setTimeout(() => {
       clearTimeout(timeOut);
-      // move(++ind);
+      move(++ind);
     }, 5000);
   };
   useEffect(() => {
     setTimeout(() => {
       move(1);
-    }, 5000);
+    }, 3000);
   }, []);
 
   return (
