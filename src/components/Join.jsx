@@ -69,13 +69,13 @@ const Join = () => {
         <div className="btns mt-16 flex gap-5 w-full justify-end">
           <Link
             to="login"
-            className="px-4 py-2 rounded-md bg-red-900 text-white hover:text-red-900 hover:bg-transparent hover:border-red-900 border-2 border-transparent duration-200 text-2xl"
+            className="px-4 py-2 text-center rounded-md bg-red-900 text-white hover:text-red-900 hover:bg-transparent hover:border-red-900 border-2 border-transparent duration-200 md:text-2xl"
           >
             تسجيل دخول
           </Link>
           <Link
             to="signup"
-            className="px-4 py-2 rounded-md bg-red-500 text-white hover:text-red-500 hover:bg-transparent hover:border-red-500 border-2 border-transparent duration-200 text-2xl"
+            className="px-4 py-2 text-center rounded-md bg-red-500 text-white hover:text-red-500 hover:bg-transparent hover:border-red-500 border-2 border-transparent duration-200 md:text-2xl"
           >
             إنشاء حساب
           </Link>
